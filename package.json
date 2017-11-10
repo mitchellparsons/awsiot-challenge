@@ -1,0 +1,10 @@
+{
+  "name": "devpost-awsiot-contest",
+  "version": "1.0.0",
+  "dependencies": {
+    "onoff": "^1.1.8",
+    "aws-iot-device-sdk": "^2.1.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
