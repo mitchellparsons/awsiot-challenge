@@ -4,7 +4,8 @@
   "dependencies": {
     "onoff": "^1.1.8",
     "aws-iot-device-sdk": "^2.1.0",
-    "rpi-ws281x-native":"*"
+    "rpi-ws281x-native":"*",
+    "aws-sdk": "*"
   },
   "author": "",
   "license": "ISC"
