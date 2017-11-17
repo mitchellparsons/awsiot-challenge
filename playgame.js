@@ -1,4 +1,6 @@
-// %comspec% /c "node c:\<repolocation>\opengame.js"
+// To make a shortcut replace the shortcut target with the following
+// %comspec% /c "node c:\<repolocation>\playgame.js"
+
 var AWS = require("aws-sdk");
 var config = require("./config.json");
 var exec = require("child_process").exec;

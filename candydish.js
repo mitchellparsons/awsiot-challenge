@@ -36,16 +36,11 @@ function updateHealth(health) {
     console.log("turning on candyDish");
     pin17.unexport();
     pin17 = new Gpio(17, "in", "falling")
-    // pin17.setDirection("in");
-    // pin17.setEdge("falling");
     pin17.watch(dispensingDebouncer)
   } else {
     pin17.unexport();
     console.log("turning off candyDish");
     pin17 = new Gpio(17, "low");
-    // pin17.write(0);
-    // pin17.unwatch();
-    // pin17.setDirection("low");    
   }
 }
 
